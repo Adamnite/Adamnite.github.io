@@ -1,0 +1,106 @@
+.site-footer {
+	position: relative;
+    @include font-size(8, mobile, true, true, true);
+    @if ( get-font-size(8, desktop) != get-font-size(8, mobile) ) {
+        @include media( '>medium' ) {
+            @include font-size(8, desktop, true, true, true);
+        }
+    }
+    color: color(typography, 3);
+
+	&::before {
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: calc(50% - 180px);
+		width: 297px;
+		height: 175px;
+		background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjk3IiBoZWlnaHQ9IjE3NSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gIDxkZWZzPiAgICA8bGluZWFyR3JhZGllbnQgeDE9Ijk5LjQzNSUiIHkxPSI4NS4wNzglIiB4Mj0iOC42ODUlIiB5Mj0iMjMuNzMzJSIgaWQ9ImEiPiAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiMxRDMwNEIiIG9mZnNldD0iMCUiLz4gICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjMUQzMDRCIiBzdG9wLW9wYWNpdHk9IjAiIG9mZnNldD0iMTAwJSIvPiAgICA8L2xpbmVhckdyYWRpZW50PiAgPC9kZWZzPiAgPHBhdGggZD0iTTMxOC4xNzEgNzA4LjY0YzE2MC4wODYgMCA3MDIuNTI3LTIyOC4yNiAyODkuODYyLTI5MC00MTIuNjY2LTYxLjczOC0xMjkuNzc2LTI5MC0yODkuODYyLTI5MFMyOC4zMSAyNTguNDc5IDI4LjMxIDQxOC42NGMwIDE2MC4xNjMgMTI5Ljc3NSAyOTAgMjg5Ljg2MSAyOTB6IiB0cmFuc2Zvcm09InJvdGF0ZSgtNiAtOTUwLjAxNiAxMDU2LjE0MykiIGZpbGw9InVybCgjYSkiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==);
+		background-repeat: no-repeat;
+	}
+
+    a {
+        @include anchor-aspect(footer);
+    }
+}
+
+.site-footer-inner {
+    position: relative; /* To display all elements above the background color */
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.footer-brand,
+.footer-links,
+.footer-social-links,
+.footer-copyright {
+    flex: none;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.footer-brand,
+.footer-links,
+.footer-social-links {
+    margin-bottom: 24px;
+}
+
+.footer-links,
+.footer-social-links {
+
+    li {
+
+        + li {
+            margin-left: 16px;
+        }
+    }
+}
+
+.footer-social-links {
+
+    li {
+        display: inline-flex;
+
+        a {
+            padding: 8px;
+        }
+    }
+}
+
+@include media( '>medium' ) {
+
+	.site-footer {
+		margin-top: 20px;
+	}
+
+    .site-footer-inner {
+        justify-content: space-between;
+		padding-top: 64px;
+		padding-bottom: 64px;
+    }
+
+    .footer-brand,
+    .footer-links,
+    .footer-social-links,
+    .footer-copyright {
+        flex: 50%;
+    }
+
+    .footer-brand,
+    .footer-copyright {
+        justify-content: flex-start;
+    }
+
+    .footer-links,
+    .footer-social-links {
+        justify-content: flex-end;
+    }
+
+    .footer-links {
+        order: 1;
+        margin-bottom: 0;
+    }
+}
