@@ -1,4 +1,4 @@
 # Adamnite.github.io
 Adamnite Public Website  
-Design by Thomas Petersen
-Website by Khalil Shanti
+*Design by Thomas Petersen*
+*Website developed by Khalil Shanti*
