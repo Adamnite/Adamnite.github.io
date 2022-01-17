@@ -1,0 +1,395 @@
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./Fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+html {
+    background-color: #1D1E2D;
+    max-width: 100%;
+}
+
+
+
+.nav-header {
+    padding-top: 20px;
+    display: flex; 
+    align-items: center;
+ }
+
+.adamnite-logo-container {
+    display: flex;
+    margin-left: 10px;
+}
+
+.nav-link-container {
+    margin: 0 auto;
+    display: none;
+}
+
+.header-socials-container {
+    margin-right: 20px;
+}
+
+.social-svg {
+    padding-right: 16px;
+}
+
+.nav-links {
+    padding-right: 20px;
+}
+
+a {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+
+    /* Gray */
+
+    color: #9FA1B9;
+}
+
+body {
+    max-width: 100%;
+}
+
+.adamnite-svg {
+    width: 40px;
+    height: 36.41px;
+    top: 26px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.adamnite-logo {
+    /* ADAMNITE */
+    padding-left: 20px;
+    width: 219px;
+    height: 0px;
+    left: 89px;
+    bottom: 0px;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    /* Gray */
+
+    color: #9FA1B9;
+    mix-blend-mode: luminosity;
+    opacity: 0.7;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-title-container {
+    width: 85.5%;
+    margin-left: 200px;
+    
+}
+
+.hero-title-svg {
+    width: 15.5%;
+    height: 779px;
+}
+
+.hero-title {
+    font-size: 72px;
+    background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 88px;
+    /* or 122% */
+
+    letter-spacing: -0.03em;
+}
+
+.hero-subtitle {
+    color: #9FA1B9;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    
+}
+
+.whitepaper-button {
+    margin-top: 50px;
+    width: 219px;
+    height: 48px;
+    margin-left: 30px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 24px;
+    background-color:#1D1E2D;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    /* or 250% */
+
+    color: #FFFFFF;
+}
+
+.use-case-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: 200px;
+    width: 0px;
+}
+
+.gradient-line {
+    width: 72px;
+    height: 2px;
+    margin-left: 200px;
+    background: linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%);
+}
+
+.grid-title {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 200px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.use-case-box {
+    width: 20vw;
+    background: url('../Adamnite/usecasebg1.png') no-repeat;
+}
+
+.use-case-title {
+    font-family: Montserrat-Regular;
+    padding-top: 50px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.use-case-subtitle {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: .9em;
+    margin-left: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.box2 {
+    max-width: 470px;
+    background: rgb(66, 67, 82, 0.3) !important;
+}
+
+.use-case-heading-box2 {
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25em;
+    line-height: 29px;
+    padding-top: 10px;
+    background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat-Regular;
+}
+
+.use-case-title-box2 {
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat-Regular;
+}
+
+.use-case-subtitle-box2 {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    margin-left: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.box3 {
+    background: url('../Adamnite/usecasebg2.png') no-repeat;
+}
+
+.box4 {
+    background: url('../Adamnite/usecasebg3.png') no-repeat;
+}
+
+.box5 {
+    background: url('../Adamnite/usecasebg4.png') no-repeat;
+}
+
+.box6 {
+    background: url('../Adamnite/usecasebg5.png') no-repeat;
+}
+
+.box7 {
+    background: url('../Adamnite/usecasebg6.png') no-repeat;
+}
+
+.box8 {
+    max-width: 470px;
+    max-height: 320px;
+    background: rgb(66, 67, 82, 0.3) !important;
+}
+
+.box8 h2, h3, div {
+    margin-bottom: 0px;
+}
+
+.usecase-socials {
+   margin-left: 20px;
+   margin-bottom: 20px;
+}
+
+.crowdfund-container {
+    background: rgb(66, 67, 82, 0.3) !important;
+    margin-top: 20px;
+    width: 100%;
+    height: 15vw;
+}
+
+.crowdfund-h1 {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 22px;
+    /* identical to box height */
+    padding-top: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #9FA1B9;
+
+}
+
+#countdown {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5em;
+    line-height: 1em;
+    background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat-Regular;
+    text-align: center;
+}
+
+.input {
+    background: #C4C4C4;
+    opacity: 0.2;
+    border-radius: 24px;
+    margin: 0 auto;
+    /* or 286% */
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 1vw;
+}
+
+input::placeholder{
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    opacity: 1 !important;
+    text-align: center;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+.footer {
+    padding-top: 100px;
+
+}
+
+.footer-socials {
+    float: right;
+    margin-right: 20px;
+}
+
+.footer-rights {
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    float: left;
+    /* Gray 6 */
+    color: #F2F2F2;
+    margin-left: 100px;
+}
+
+/* Media queries */
+
+/* Laptop */
+
+@media screen and (max-width: 1600px) {
+    .hero-container {
+        padding-bottom: 30px;
+    }
+
+    .use-case-box {
+        width: 50vw;
+    }
+
+    .crowdfund-container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .hero-title-container {
+        margin-left: 100px;
+    }
+
+    .use-case-grid-container {
+        margin-left: 100px;
+    }
+
+    .gradient-line {
+        margin-left: 100px;
+    }
+
+    .grid-title {
+        margin-left: 100px;
+    }
+}
