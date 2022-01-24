@@ -481,3 +481,33 @@ body {
     }
 
 }
+
+/* mobile */
+
+@media screen and (max-width: 640px) {
+    .whitepaper-button {
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .hero-title {
+        font-size: 4em;
+    }
+
+    .hero-subtitle {
+        font-size: 1.5em;
+    }
+
+    .grid-title {
+        font-size: 2em;
+    }
+
+    .use-case-subtitle {
+        font-size: 1.75em;
+    }
+
+    .use-case-title {
+        font-size: 2.5em;
+    }
+}
