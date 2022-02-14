@@ -365,6 +365,8 @@ body {
     margin-left: 32px;
     margin-bottom: 20px;
     margin-top: 44px;
+    justify-content: center;
+    display: flex;
 }
 
 .crowdfund-container {
