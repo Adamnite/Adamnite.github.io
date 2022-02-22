@@ -9,6 +9,7 @@ html {
 }
 
 
+
 .nav-header {
     padding-top: 20px;
     display: flex; 
@@ -51,6 +52,10 @@ a {
     color: #9FA1B9;
 }
 
+a:hover {
+    color: #FFFFFF;
+}
+
 h2 {
     font-family: Montserrat-Regular;
     padding-top: 16px;
@@ -62,14 +67,34 @@ h2 {
     color: #FFFFFF;
 }
 
-p {
-    color: #9FA1B9;
+h3 {
+    font-family: Montserrat-Regular;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+li {
+    color: #FFFFFF;
+    opacity: .7;
     font-family: Montserrat-Regular;
     font-style: normal;
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-size: 1em !important;
     margin-left: 3em;
-    line-height: 40px;
+    line-height: 40px; 
+}
+
+p {
+    color: #FFFFFF;
+    opacity: .7;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-size: 1rem !important;
+    margin-left: 3em;
+    line-height: 2em;
 }
 
 body {
@@ -129,6 +154,10 @@ body {
     height: 779px;
 }
 
+.whitepaper-img {
+    margin-left: 3em;
+}
+
 .hero-title {
     font-size: 72px;
     background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%);
@@ -144,8 +173,8 @@ body {
 }
 
 .whitepaper-title {
-    margin-left: 2em;
     margin-top: 1em;
+    text-align: center !important;
 }
 
 .hero-subtitle {
@@ -155,14 +184,14 @@ body {
     font-weight: 300;
     font-size: 24px;
     line-height: 40px;
-    
+    text-align: left;
 }
 
 .whitepaper-button {
     margin-top: 50px;
     width: 219px;
     height: 48px;
-    margin-left: 1em;
+    margin-left: 0;
     border: 1px solid #C4C4C4;
     box-sizing: border-box;
     border-radius: 24px;
@@ -172,6 +201,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 40px;
+    margin-right: 1em;
     /* or 250% */
 
     color: #FFFFFF;
@@ -197,6 +227,11 @@ body {
     
 }
 
+strong {
+    color: #FFFFFF;
+    opacity: 1;
+}
+
 .grid-title {
     font-family: Montserrat-Regular;
     font-style: normal;
@@ -210,8 +245,19 @@ body {
     margin: 0 auto 80px auto;
 }
 
+.content-nav {
+    display: grid;
+    grid-template-columns: repeat(3, .2fr);
+    margin-top: 1em;
+    justify-content: center;
+    margin-left: 15em;
+}
+
+.content-nav a {
+    margin-left: 1em;
+}
+
 .grid-title::before {
-   
         display: inline-block;
         content: "";
         height: 1px;
@@ -327,34 +373,7 @@ body {
     background-size: 100%;
     max-height: 320px;
     background: rgb(66, 67, 82, 0.3) !important;
-
     grid-column: 1 / span 2;
-}
-
-.box8 .use-case-title {
-    font-family: Montserrat-Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.5em;
-    line-height: 22px;
-    /* identical to box height */
-    padding-top: 20px;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: #9FA1B9;
-}
-
-.box8 .use-case-subtitle {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.box8 .usecase-socials {
-    margin: 0 !important;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
 }
 
 .box8 h2, h3, div {
@@ -365,13 +384,15 @@ body {
     margin-left: 32px;
     margin-bottom: 20px;
     margin-top: 44px;
-    justify-content: center;
     display: flex;
+    justify-content: center;
 }
+
+
 
 .crowdfund-container {
     background: rgb(66, 67, 82, 0.3) !important;
-    margin-top: 5px;
+    margin-top: 20px;
     width: 100%;
     height: 160px;
    
@@ -396,7 +417,7 @@ body {
 #countdown {
     font-style: normal;
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2.5em !important;
     line-height: 1em;
     background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%);
     -webkit-background-clip: text;
@@ -457,6 +478,12 @@ body {
     margin-left: 100px;
 }
 
+.whitepaper-container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
 /* Media queries */
 
 /* Laptop */
@@ -473,6 +500,10 @@ body {
 
     .crowdfund-container {
   
+    }
+
+    .content-nav {
+        margin-left: 5em;
     }
 }
 
@@ -568,5 +599,9 @@ body {
 
     .use-case-title {
         font-size: 2.5em;
+    }
+
+    p {
+        font-size: .3rem !important;
     }
 }
