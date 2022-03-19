@@ -176,6 +176,8 @@ body {
 
 .whitepaper-title {
     margin-top: 1em;
+    margin-bottom: -10px;
+    padding-bottom: 30px;
     text-align: center !important;
 }
 
@@ -245,14 +247,18 @@ strong {
 
 .content-nav {
     display: grid;
-    grid-template-columns: repeat(3, .2fr);
-    margin-top: 1em;
+    grid-template:
+        "a a a"
+        "b b b";
     justify-content: center;
-    margin-left: 15em;
+    column-gap: 100px;
+    row-gap: 10px;
+
 }
 
 .content-nav a {
     margin-left: 1em;
+    font-size: 15px;
 }
 
 .grid-title::before {
@@ -281,6 +287,10 @@ strong {
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
+}
+
+.use-case-title .tableOfContents {
+    margin-top: 20px;
 }
 
 .use-case-subtitle {
@@ -496,12 +506,12 @@ body {
         width: 100%;
     }
 
-    .crowdfund-container {
-  
-    }
-
     .content-nav {
         margin-left: 5em;
+    }
+
+    .whitepaper-title {
+        font-size: 65px;
     }
 }
 
@@ -524,8 +534,8 @@ body {
 
     .use-case-grid-container {
         grid-template-columns: 1fr!important;
-    grid-template-rows: 8fr!important;
-    grid-gap: 20px 0;
+        grid-template-rows: 8fr!important;
+        grid-gap: 20px 0;
     }
 
     .gradient-line {
@@ -572,7 +582,8 @@ body {
 
 /* mobile */
 
-@media screen and (max-width: 640px) {
+@media only screen and (max-width: 600px) {
+
     .whitepaper-button {
         width: 300px;
         height: 50px;
@@ -601,5 +612,15 @@ body {
 
     p {
         font-size: .3rem !important;
+    }
+
+    .content-nav {
+        display: grid;
+        grid-template: "a";
+    }
+
+    .whitepaper-title {
+        padding-top: 20px;
+        font-size: 20px;
     }
 }
