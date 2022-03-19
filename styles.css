@@ -52,6 +52,7 @@ a {
     color: #9FA1B9;
 }
 
+
 a:hover {
     color: #FFFFFF;
 }
@@ -172,6 +173,7 @@ body {
     letter-spacing: -0.03em;
 }
 
+
 .whitepaper-title {
     margin-top: 1em;
     text-align: center !important;
@@ -205,10 +207,6 @@ body {
     /* or 250% */
 
     color: #FFFFFF;
-}
-
-.whitepaper-button:hover {
-    opacity: .7;
 }
 
 .use-case-grid-container {
