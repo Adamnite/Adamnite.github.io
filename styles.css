@@ -160,16 +160,15 @@ body {
 }
 
 .hero-title {
-    font-size: 72px;
-    background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%);
+    font-size: 80px;
+    /* background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%); */
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Montserrat-Regular;
+    /* -webkit-text-fill-color: transparent; */
+    color: #FFFFFF;
+    font-family: Montserrat-SemiBold;
     font-style: normal;
     font-weight: 500;
     line-height: 88px;
-    /* or 122% */
-
     letter-spacing: -0.03em;
 }
 
@@ -189,6 +188,7 @@ body {
     font-size: 24px;
     line-height: 40px;
     text-align: left;
+    width: 53%;
 }
 
 .whitepaper-button {
@@ -494,6 +494,14 @@ body {
 
 /* Media queries */
 
+@media screen and (min-width: 1601px) {
+        
+    .hero-container {
+        padding-bottom: 30px;
+        max-width: 960px;
+    }
+}
+
 /* Laptop */
 
 @media screen and (max-width: 1600px) {
@@ -530,6 +538,7 @@ body {
         line-height: 160%;
         width: 90%;
         margin: 0 auto;
+        text-align: center;
     }
 
     .use-case-grid-container {
@@ -591,11 +600,11 @@ body {
     }
 
     .hero-title {
-        font-size: 4em;
+        font-size: 2em;
     }
 
     .hero-subtitle {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .grid-title {
