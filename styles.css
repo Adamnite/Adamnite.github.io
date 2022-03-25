@@ -492,6 +492,37 @@ body {
     padding-top: 20px;
 }
 
+.core-team-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.core-team-item {
+    display: flex; 
+    flex-basis: 50%; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.core-team-img {
+    width: 200px;
+    height: 200px;
+}
+
+.core-team-header {
+    font-family: Montserrat-Regular;
+    padding-top: 16px;
+    margin-left: 32px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
 /* Media queries */
 
 /* Laptop */
