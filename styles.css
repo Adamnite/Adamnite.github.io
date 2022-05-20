@@ -27,6 +27,10 @@ html {
     display: none;
 }
 
+.header-line {
+    padding-top: 20vw;
+}
+
 .header-socials-container {
     margin-right: 20px;
 }
@@ -139,7 +143,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     height: calc(100vh - 100px);
-  
+    padding-top: 5vw;
 }
 
 .hero-title-container {
@@ -230,6 +234,10 @@ strong {
     opacity: 1;
 }
 
+.strong {
+    font-style: italic;
+}
+
 .grid-title {
     font-family: Montserrat-Regular;
     font-style: normal;
@@ -241,6 +249,20 @@ strong {
     color: #FFFFFF;
     max-width: 960px;
     margin: 0 auto 80px auto;
+    padding-top: 20px;
+}
+
+.last {
+    grid-column: 1 / span 2;
+}
+
+.mission {
+    padding-top: 80px;
+   
+}
+
+#adamniteMission {
+    padding-top: 20px;
 }
 
 .content-nav {
@@ -519,6 +541,15 @@ body {
     color: #FFFFFF;
 }
 
+#Team {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.team {
+    padding-top: 5vw;
+}
+
 /* Media queries */
 
 /* Laptop */
@@ -526,6 +557,12 @@ body {
     .hero-container {
         padding-bottom: 30px;
         max-width: 960px;
+    }
+
+    .hero-subtitle {
+        max-width: 960px;
+        margin: 0 auto;
+        margin-bottom: 5vw;
     }
 
     .use-case-box {
@@ -541,24 +578,69 @@ body {
     }
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (min-width: 600px) and (max-width: 1040px) {
     
     .hero-title {
         font-size: 50px;
         line-height: 140%;
     }
+
+    .team-container {
+        padding-top: 2vw;
+    }
+
+    .core-team-description {
+        line-height: 1.5;
+        width: 68%;
+        margin: 0 auto;
+        font-size: 1em !important;
+    }
+    
+    .core-team-item {
+        padding-top: 3vw;
+    }
+
+    .strong {
+        font-style: italic;
+    }
+
     .hero-title-container {
        text-align: center;
+    }
+
+    .use-case-box {
+        height: 370px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box8 {
+        max-height: 370px;
     }
 
     .hero-subtitle {
         line-height: 160%;
         width: 90%;
         margin: 0 auto;
+        font-size: 1.2rem;
+    }
+
+    .use-case-subtitle {
+        font-size: 1.15rem;
+        max-width: 50%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Team {
+        padding-top: 5vw;
+        padding-bottom: 5vw;
     }
 
     .use-case-grid-container {
-        grid-template-columns: 1fr!important;
+        grid-template-columns: auto;
         grid-template-rows: 8fr!important;
         grid-gap: 20px 0;
     }
@@ -610,7 +692,7 @@ body {
 
 /* mobile */
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
     .whitepaper-button {
         width: 300px;
@@ -623,7 +705,7 @@ body {
     }
 
     .hero-subtitle {
-        font-size: 1.5em;
+        font-size: 5em;
     }
 
     .grid-title {
