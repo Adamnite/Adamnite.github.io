@@ -28,7 +28,7 @@ html {
 }
 
 .header-line {
-    padding-top: 20vw;
+    padding-top: 8vw;
 }
 
 .header-socials-container {
@@ -213,6 +213,10 @@ body {
     /* or 250% */
 
     color: #FFFFFF;
+}
+
+.button-container {
+    display: flex;
 }
 
 .use-case-grid-container {
@@ -513,6 +517,13 @@ body {
     padding-top: 20px;
 }
 
+.use-case-grid-container-open-source {
+    grid-template-columns: auto;
+    grid-template-rows: 8fr!important;
+    grid-gap: 20px 0;
+}
+
+
 .core-team-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -544,7 +555,7 @@ body {
 }
 
 #Team {
-    padding-top: 10vw;
+    padding-top: 2vw;
     padding-bottom: 5vw;
 }
 
@@ -623,9 +634,9 @@ body {
 
     .hero-subtitle {
         line-height: 160%;
-        width: 90%;
+        width: 90% !important;
         margin: 0 auto;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .use-case-subtitle {
@@ -642,9 +653,13 @@ body {
     }
 
     .use-case-grid-container {
-        grid-template-columns: auto;
+        grid-template-columns: 1fr;
         grid-template-rows: 8fr!important;
         grid-gap: 20px 0;
+    }
+
+    .open-source {
+        grid-template-columns: auto;
     }
 
     .gradient-line {
