@@ -191,6 +191,8 @@ body {
     font-size: 24px;
     line-height: 40px;
     text-align: left;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 .whitepaper-button {
@@ -257,8 +259,7 @@ strong {
 }
 
 .mission {
-    padding-top: 80px;
-   
+   padding-top: 8vw; 
 }
 
 #adamniteMission {
@@ -542,12 +543,12 @@ body {
 }
 
 #Team {
-    padding-top: 5vw;
+    padding-top: 10vw;
     padding-bottom: 5vw;
 }
 
 .team {
-    padding-top: 5vw;
+    padding-top: 8vw;
 }
 
 /* Media queries */
