@@ -191,7 +191,7 @@ body {
     font-size: 24px;
     line-height: 40px;
     text-align: left;
-    width: 960px !important;
+    max-width: 960px;
     margin: 0 auto !important;
 }
 
