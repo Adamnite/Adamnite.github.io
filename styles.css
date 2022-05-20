@@ -191,8 +191,8 @@ body {
     font-size: 24px;
     line-height: 40px;
     text-align: left;
-    max-width: 960px;
-    margin: 0 auto;
+    width: 960px !important;
+    margin: 0 auto !important;
 }
 
 .whitepaper-button {
@@ -222,6 +222,7 @@ body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    padding-top: 2vw;
 }
 
 .gradient-line {
@@ -251,7 +252,7 @@ strong {
     color: #FFFFFF;
     max-width: 960px;
     margin: 0 auto 80px auto;
-    padding-top: 20px;
+    padding-top: 3vw;
 }
 
 .last {
