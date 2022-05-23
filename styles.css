@@ -195,6 +195,17 @@ body {
     margin: 0 auto !important;
 }
 
+.hero-subtitle2 {
+    color: #9FA1B9;
+    font-family: Montserrat-Regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: left;
+    width: 960px !important;
+}
+
 .whitepaper-button {
     margin-top: 50px;
     width: 219px;
