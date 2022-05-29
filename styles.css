@@ -227,7 +227,16 @@ body {
 }
 
 .button-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: .3fr .3fr .3fr;
+}
+
+.whitepaper-button .last {
+    grid-column: 1 / span 2;
+}
+
+.whitepaper-button:hover {
+    opacity: .8;
 }
 
 .use-case-grid-container {
