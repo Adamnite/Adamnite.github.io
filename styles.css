@@ -725,6 +725,12 @@ body {
     .core-team-container {
         grid-template-columns: 1fr;
     }
+
+    .hero-subtitle2 {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* mobile */
@@ -770,4 +776,5 @@ body {
         padding-top: 20px;
         font-size: 20px;
     }
+
 }
