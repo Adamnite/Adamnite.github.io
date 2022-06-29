@@ -75,6 +75,10 @@ section h1 {
     justify-content: space-around;
 }
 
+.header-line {
+    padding-top: 8vw;
+}
+
 .header-socials-container {
     width:220px;
 }
@@ -499,6 +503,12 @@ footer div {
         max-width: 960px;
     }
 
+    .hero-subtitle {
+        max-width: 960px;
+        margin: 0 auto;
+        margin-bottom: 5vw;
+    }
+
     .use-case-box {
         width: 100%;
     }
@@ -565,10 +575,21 @@ footer div {
        text-align: center;
     }
 
+    .use-case-box {
+        height: 370px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box8 {
+        max-height: 370px;
+    }
+
     .hero-subtitle {
         font-size: 18px;
         line-height: 160%;
-        width: 90%;
+        width: 90% !important;
         margin: 0 auto;
         text-align: center;
     }
@@ -585,7 +606,7 @@ footer div {
 
 /* mobile */
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 
 
     .whitepaper-button {
