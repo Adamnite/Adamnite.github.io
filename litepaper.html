@@ -89,27 +89,8 @@
         <section>
        
             <h4 class="hero-title whitepaper-title">
-               Vision Paper
+               Motivation and Background
             </h4>
-            <h2 class = "use-case-title tableOfContents">Table of Contents</h2>
-            <div class="content-nav">
-                    <a href="#Summary">
-                        Summary
-                    </a>
-                    <a href="#Motivation">
-                        Motivation
-                    </a>
-                    <a href="#Problems">
-                        State of Affairs
-                    </a>
-                    <a href="#Adamnite">
-                        Introducing Adamnite
-                    </a>
-            
-                    <a href="#Conclusion">
-                        Conclusion
-                    </a>
-            </div>
             <div class="whitepaper-container">
                 <div id="Summary">
                     <h2 class = "use-case-title">
@@ -132,7 +113,7 @@
                 </div>
                 <div id="Motivation">
                     <h2 class = "use-case-title">
-                       Motivation
+                       Why?
                     </h2>
                         <p class= "use-case-subtitle"> 
                           We believe that the blockchain space is still in its infancy, and that there is a significant amount of value that remains to be captured with both mainstream and enterprise-level adoption. Through the creation of Adamnite, we hope to accelerate widespread adoption by making development accessible and providing enterprises with enough reason to switch to blockchain technology. Adamnite was initially conceptualized in late 2021 in a white-paper titled Adamnite: A secure and scalable blockchain development platform, written by co-founder Archie Chaudhury. 
@@ -150,33 +131,7 @@
                             Furthermore, with developer events, hackathons, and sponsorships by top institutions becoming commonplace, programmers are becoming more and more aware of concepts relating to blockchain technology such as Web3, smart contracts, and dApps. 
                       </p>
                 </div>
-            
-                <div id="Problems">
-                    <h2 class = "use-case-title">
-                       Problems
-                    </h2>
-                       <p class= "use-case-subtitle"> 
-                          However, the price of increased mainstream adoption has also brought with it several negatives. Namely, there has been an increased tendency for large scale dApps, especially those in DeFi, to be targeted for exploits by malicious attackers. 
-                        </p>
-                          <p class= "use-case-subtitle"> These attackers take advantage of logical invalidities within the software that allows them to interact with the underlying smart contracts in a manner inconsistent with the protocol’s intentions. Consider a loop in a smart contract built for a decentralized exchange defining a swap for two assets. 
-                        </p>
-                        <p class= "use-case-subtitle">
-                            A small error in this loop could allow  someone interacting with the contract to continuously drain the underlying pool of one of the assets while adding nothing in return. In the past year, over $3.2 billion dollars were lost in malicious attacks, with a majority coming from exploits in DeFi protocols. While audits from third parties have become increasingly popular as a mark of validation, they are often expensive, and are only affordable by established companies with proper backing. This serves as a barrier to entry for individual developers or a rag-tag team of builders.
-                        </p>
-                            <p class= "use-case-subtitle">
-                                Current blockchain development platforms also suffer from a lack of scalability and accessibility. While the slow transaction speeds and high gas fees associated with Ethereum have been addressed with new layer 1 platforms such as Avalanche and layer-2 roll ups such as Polkadot, blockchain development remains highly underutilized. 
-                            </p>
-                                <p class= "use-case-subtitle">
-                                    Most of these chains often need to allocate millions of dollars in funding to actually attract developers to their platforms. Furthermore, newer chains also tend to focus on one specific problem, such as transaction speed (Solana) or light clients (Mina), rather than providing a general platform that works for developers. 
-                                      </p>
-            
-                                    <p class= "use-case-subtitle">
-                                    This leads to a variety of chains that come with their unique problems, forcing developers to sacrifice say speed for ease of use or scalability for security. While Solidity is certainly becoming more popular as a programming language, and more recently has become the language of choice for blockchain developers around the world, it remains difficult to work with for average programmers due to its inherent complexity. 
-                                </p>
-                                    <p class= "use-case-subtitle">
-                                    While the language itself is easy to learn, actually creating and deploying a secure contract while accounting for efficiency and long-term scalability is a different story. This is reflected in the relative lack of diversity of current dApps. Despite the potential of blockchain technology to be used in sectors such as healthcare, supply chain, and beyond, a majority of dApps today center around DeFi and NFTs, with the former being dominated by yield protocols and the latter by virtual art.
-                        </p>
-                </div>
+          
                 <div id="Adamnite">
                    <h2 class = "use-case-title">
                         Introducing Adamnite
@@ -195,39 +150,9 @@
                      <p class= "use-case-subtitle">With Adamnite, the creation of a basic decentralized game that runs completely on-chain will essentially be as simple as creating a game that runs using Web2 technology.
                     </p> 
                          
-                    <p class= "use-case-subtitle">
-                        A developer can leverage Adamnite’s succinct nature to directly download a node and validate the blockchain without having to sacrifice a large amount of computing power. Then, they can write smart contracts in one of two high level programming languages: a Script-like language similar to Solidity, and a Pythonic language similar to Python.  
-                    </p> 
-                        <p class= "use-case-subtitle">A key difference however will be modularity; various modules will be made available for developers to download. These modules will increase the efficiency of seasoned developers while helping newer ones acclimate to the ecosystem.</p>
-                            <p class= "use-case-subtitle">A great example is the creation of a digital asset; on Ethereum, the same lines of code are often reused across thousands of smart contracts to create ERC-20 tokens with only slight variations. This is significantly limiting for advanced developers who want to add additional functionality to the core smart contract driving their asset.</p>
-                                <p class= "use-case-subtitle">Adamnite’s modular structure will allow developers to download standard code as modules, thus also breaking down the barrier of entry required for newer developers to create on-chain contracts.</p> 
-            
-                                <p class= "use-case-subtitle">Once a developer has finished writing the smart contracts that define their dApp, they will be able to declare statements in the form of knowledge assertions that define how they want their code to function. A developer creating a DeFi protocol for example could define a variable in a loop as a loop invariant, which basically states that it should not change throughout the loop’s execution in order for the smart contract to function as intended. 
-                                </p>
-                                    <p class= "use-case-subtitle"> They will then be able to execute the program through the compiler for their respective language. At this point, a knowledge verification system similar to the one employed by QuickCheck for Haskell will generate test cases for the assertions made by the developer, and return how successful the assertions were when tested. The developer will then be able to edit the program before compiling again. This serves to add a basic layer of security for dApps built on Adamnite: while creators of larger scale dApps will likely want a formal audit (the compiler still serves as a great first step), individual developers and hackers will now be able to build dApps with the confidence that their program meets their standard of safety. 
-                                </p>
-                                    <p class= "use-case-subtitle"> Finally, once a developer is satisfied with the state of their program, they can deploy their smart contracts to mainnet. As a result of its consensus mechanism and use of zero knowledge proofs, Adamnite’s blockchain is speedy and scalable: transactions are cost-efficient and fast, while the network itself minimizes congestion. dApps on Adamnite will not only be secure, but they will also be scalable for long-term use by the general public.
-            
-                        </p>
                 </div>
    
-                   
-
-                    <div id="Conclusion">
-                        <h2 class = "use-case-title">
-                           Conclusion
-                        </h2>
-                           <p class= "use-case-subtitle"> 
-                                        Adamnite will power a new generation of applications built entirely using blockchain technology. While blockchain development platforms have existed for the better part of a decade, significant adoption is still lagging, with security issues significantly degrading the trust of the general public in the space and scalability issues turning off enterprises from building their core infrastructure using blockchain. 
-                                    </p>
-                                        <p class= "use-case-subtitle"> Adamnite aims to be a permissionless general purpose blockchain that provides developers of all backgrounds the tools they need to build smart contracts that both meet their standards and the standards of their users. 
-                                        </p>
-                                            <p class= "use-case-subtitle"> We have a strong belief that the blockchain industry is still in its infancy, and as adopters, we are all early in a space that will soon be utilized on a daily basis by millions around the world. 
-                                            </p>
-                                                <p class= "use-case-subtitle"> By creating a platform that is at once secure, scalable, and efficient, Adamnite will be at the forefront of this future adoption, and will help blockchain technology reach its true potential. 
-
-                                        </p>
-                    </div>
+                 
                 </div>    
             </section>
             <footer class="white-background">
