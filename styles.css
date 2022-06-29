@@ -655,4 +655,13 @@ footer div {
         padding: 0 40px 24px 4px;
     }
 
+    .hero-background section  {
+        /* width: 100%; */
+      
+        margin:0 auto;
+        height: calc(100vh - 284px);
+        text-align: left;
+    }
+    
+
 }
