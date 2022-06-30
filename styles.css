@@ -340,6 +340,15 @@ whitepaper-button:hover a {
     padding-bottom: 40px;
 }
 
+.last {
+    justify-content: center;
+}
+
+.last2 {
+    justify-content: center;
+    padding-top: 0px;
+}
+
 .core-team-item {
     padding-top:24px;
     flex-basis: 50%;
