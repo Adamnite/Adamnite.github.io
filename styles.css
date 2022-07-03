@@ -575,17 +575,6 @@ footer div {
        text-align: center;
     }
 
-    .use-case-box {
-        height: 370px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .box8 {
-        max-height: 370px;
-    }
-
     .hero-subtitle {
         font-size: 18px;
         line-height: 160%;
@@ -599,15 +588,11 @@ footer div {
         margin-right: 0px;
     }
 
-
-
-
 }
 
-/* mobile */
+
 
 @media screen and (max-width: 600px) {
-
 
     .whitepaper-button {
         width: 300px;
@@ -680,7 +665,7 @@ footer div {
         /* width: 100%; */
       
         margin:0 auto;
-        height: calc(100vh - 284px);
+        /* height: calc(100vh - 214px); */
         text-align: left;
     }
     
