@@ -515,7 +515,7 @@ footer div {
     .hero-subtitle {
         max-width: 960px;
         margin: 0 auto;
-        margin-bottom: 5vw;
+        margin-bottom: 16px;
     }
 
     .use-case-box {
