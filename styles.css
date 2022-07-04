@@ -329,6 +329,11 @@ whitepaper-button:hover a {
 }
 
 
+ul.wiki-nav {
+    display: flex;
+    padding-top: 1vw;
+}
+
 
 .core-team-container {
     display: flex;
