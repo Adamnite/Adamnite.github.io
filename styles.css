@@ -12,8 +12,6 @@ body {
     background-color: var(--primary);
 }
 
-
-
 .hero-background {
     background: url('bg.jpg');
     background-repeat: no-repeat;
@@ -25,6 +23,24 @@ html {
     background-color: var(--primary);
     color:var(--primary);
     max-width: 100%;
+}
+
+banner {
+    height: 16px ;
+    display: block;
+    background: #1f2030;
+    color: white;
+    padding: 8px 16px 16px 16px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+banner a {
+    background: linear-gradient(45deg, rgb(108 99 255), rgb(71 230 177));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 0.8rem;
 }
 
 .white-background {
