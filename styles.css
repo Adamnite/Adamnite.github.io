@@ -345,13 +345,13 @@ whitepaper-button:hover a {
 }
 
 
-
 .core-team-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: start;
     text-align: center;
+    justify-content: center !important;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -428,6 +428,36 @@ whitepaper-button:hover a {
     background-repeat: no-repeat;
     background-position-x: center;
 }
+
+.jonah {
+    background-image: url('Jonah.png');
+    background-size: contain;
+    height: 160px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 20px;
+}
+
+.ajai {
+    background-image: url('Ajai.png');
+    background-size: contain;
+    height: 160px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.marin {
+    background-image: url('Marin.png');
+    background-size: contain;
+    height: 160px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+
 
 .vc01 {
     background-image: url('1517.png');
