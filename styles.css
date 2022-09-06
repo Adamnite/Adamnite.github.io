@@ -656,7 +656,6 @@ footer div {
         margin-right: 0;
     }
 
-
     .hero-title {
         font-size: 2em;
     }
@@ -706,8 +705,6 @@ footer div {
         flex-basis: 100%;
     }
 
-
-
     .tableOfContents {
         text-align: center!important;
     }
@@ -722,6 +719,10 @@ footer div {
         margin:0 auto;
         /* height: calc(100vh - 214px); */
         text-align: left;
+    }
+
+    .nav-link-container {
+        max-width: 50%;
     }
     
 
