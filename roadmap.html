@@ -92,7 +92,7 @@
             <h4 class="hero-title whitepaper-title">
               Roadmap
             </h4>
-            <h2 class = "use-case-title tableOfContents">What we are building</h2>
+            <h2 class = "use-case-title tableOfContents">Core Engineering Plan</h2>
 
             <div class="whitepaper-container">
              
@@ -102,34 +102,33 @@
                           Technical
                         </h1>
                            <p class= "use-case-subtitle"> 
-                              Our technical roadmap consist of 5 main element all making up the components that make our testnet possible. A brief introduction to each component and how they are different is described here.
+                              Our technical roadmap is centered around our core technolgiies, including the core Adamnite blockchain, a virutal machine for enabling smart contracts, and an easy to use high-level programming language. This core software is key to accomplishing our vision of creating a "friendly" layer-1 blockchain development platform.
                             </p>
                            
                             <div id="Summary">
                                 <div id="Overview">
                                     <h2 class = "use-case-title">
-                                    A1 — Smart contracts for evernyone
+                                    A1 — Smart contracts for everyone
                                     </h2>
                                         <p class= "use-case-subtitle"> 
-                                            When Nick Szabo in wrote "The Idea of Smart Contract" he was envisioning something that 
+                                            When Nick Szabo wrote "The Idea of Smart Contracts", he was envisioning something that 
                                             could be used by anyone regardless of their technical abilites. 
-                                            It shouldn't matter whether you were a lawyer, a realtor, a baker a plumber 
-                                            or a developer. Anyone should be able to write smart contracts.    
+                                            It shouldn't matter whether you were a lawyer, a realtor, a baker, a plumber, 
+                                            or a developer, you should be able to create native and autonomous multi-party smart contracts that execute on the internet.    
                                     </p>    
                                     <p class= "use-case-subtitle">
-                                            Todays smart contract frameworks are cumbersome, convoluted and often extremely 
+                                            Mordern smart contract frameworks are cumbersome, convoluted and often extremely 
                                             insecure, making it impossible for most people to use them. 
-                                            It's expensive to get anything built and often it will be done by people with 
+                                            It's expensive to get anything built and often, it will be requires people with 
                                             questionable experience.
                                         </p>   
                                         <p class= "use-case-subtitle">
-                                            A1 is our proposal attempt at fixing that. It's a more powerful, easier and safer 
-                                            smart contract scripting language. It is so simple you don't need to be a developer to
-                                            create contracts with it, but if you are it is also very extensible and powerful.
+                                            A1 is the native high-level programming language for the Adamnite Ecosystem. It's an easy to use smart contract programming language. Being human-readable, modular, and similar to other web programming languages, it is so simple that you don't need to be a developer to
+                                            create programs with it, but powerful enough to enable experienced developers to build complex internet applications.
                                         </p> 
 
                                         <p class="use-case-subtitle">
-                                            A1 also offer formal verification which further increases the security by providing 
+                                            A1 also offer formal verification which further increases security by providing 
                                             vetted modules for developers and ensure code consistency.    
                                         </p>
                                 </div>                     
@@ -138,18 +137,15 @@
                             <div id="Summary">
                                 <div id="Overview">
                                     <h2 class = "use-case-title">
-                                    ADVM — Flexible and secure virtual machine
+                                    ADVM: Enabling the execution of internet-native multi-party smart contracts
                                     </h2>
                                         <p class= "use-case-subtitle"> 
-                                            When a blockchain grows, the pressure to provide consistent 
-                                            and predictable validation becomes more and more difficult. 
-                                            The result of that is that prices per transaction 
-                                            fluctuates heavly as we have seen with some blockchain 
-                                            alternative out there.   </p> 
+                                            Execution-models in blockchain networks are used to enable the execution of programs on the actual blockchain.
+                                            However, the most popular blockchain execution models (such as the EVM) are inefficient and insecure due to a lack of standardization and modernity.  </p> 
 
                                             <p class= "use-case-subtitle"> 
                                             This issue seriously hinders blockchain adoption because it 
-                                            risks pricing out participants not willing to pay the increased fees.</p> 
+                                            results in increased fees and security exploits.</p> 
                                             
                                             <p class= "use-case-subtitle"> 
                                             (ADVM) our virtual machine and bytecode interpeter is
@@ -160,13 +156,13 @@
                                             the underlying smart contracts. </p> 
                                             
                                             <p class= "use-case-subtitle"> 
-                                            Admanite a slightly different model than other blockchain-based 
+                                            Admanite uses a slightly different model than other blockchain-based 
                                             virtual machines: due to WASM’s predictability, we can actually create
                                             a system in which fees are deterministic and stable. The
                                             majority of WASM engine operations are consistent, and
                                             with hashing functions and other common cryptographic
                                             operations essentially being functional libraries, operations
-                                            have consistent fees (almost all operations cost 1 micalli).
+                                            have consistent fees (almost all operations cost a minimal amount of 0.0001 nite).
                                             </p>
 
 
@@ -180,18 +176,16 @@
                                         </h2>
                                             <p class= "use-case-subtitle"> 
                                             Adamnite uses a unique form of Proof of Stake called Delegated Proof 
-                                            of Stake which first categorizes validtators by reputaiton score, 
-                                            then randomly select between them to provide the final validator pool.
+                                            of Stake which first categorizes validators by reputation score, 
+                                            then randomly selects between them to provide the final validator pool.
                                             </p>
                                             <p class= "use-case-subtitle">     
                                             This reduces the risk of cohersion by making it hard to guess who is 
-                                            selected for the validation while stille allowing for fast 
+                                            selected for the validation while still allowing for fast 
                                             transaction throughput.
                                             </p>
                                             <p class= "use-case-subtitle">     
-                                            This reduces the risk of cohersion by making it hard to guess who is 
-                                            selected for the validation while stille allowing for fast 
-                                            transaction throughput.
+                                           
                                             </p> 
                                     </div>                     
                                     </div>     
@@ -202,11 +196,11 @@
                                                 Adamnite T1  - The Adamnite Testnet
                                             </h2>
                                                 <p class= "use-case-subtitle"> 
-                                                    Like all Blockchains Adamnite need a Testnet to allow ourselves and people developing on it to try out our ideas before we put it into the wild.                          
+                                                    The first version of Adamnite's network, its testnet, will enable anyone to participate in the consensus process, send transactions, write smart contracts in A1, and run them on the actual blockchain. This will be an opportunity for developers and users to start building/testing applications before the launch of mainnet.                      
                                                 </p> 
                                                 <p class= "use-case-subtitle"> 
                                                     Adamnite Testnet will give you all the same freedoms that you have on the Mainnet
-                                                    without any of the cost. We escpect testnet to be done in October.                     
+                                                    without any of the cost. We expect testnet, which will include all the of the features described so far, to be done in November.                   
                                                 </p> 
                                         </div>                     
                                         </div>  
@@ -232,9 +226,9 @@
  
                                                         </p>    
                                                         <p class= "use-case-subtitle">
-                                                                In other words. The blockchain world is a wild place and not very welcoming
-                                                                to new people. For people new to this world they quickly realize that it's very
-                                                                to make mistakes. Whether it's getting involved in projects that get's rugpulled, 
+                                                                In other words, the blockchain world is a wild place and not very welcoming
+                                                                to new people who may not be familar with all of its intricacies. For people new to this world, they quickly realize that it's very easy
+                                                                to make mistakes. Whether it's getting involved in projects that will get rugpulled, 
                                                                 getting your tokens stolen or just finding yourself having lost any value you've
                                                                 accumulated simply because they didn't understand what they were involved in.
                                                             </p>   
@@ -246,7 +240,7 @@
                     
                                                             <p class="use-case-subtitle">
                                                                 Submitting to the app store is not a requirement. Anyone can build on the Adamnite
-                                                                blockcahin and freely distribute their app. But with the app store they will be able
+                                                                blockcahin and freely distribute their app. But, with the app store, they will be able
                                                                 to provide the users with a more trustworthy onboarding.
                                                             </p>
                                                     </div>                     
@@ -261,16 +255,14 @@
                                                                 </h2>
                                                                     <p class= "use-case-subtitle"> 
                                                                        One of the most important tools for using any blockchain is having a wallet.
-                                                                       It's where we store our tokens, NFTs and currencies. Without them using the Blockchain
-                                                                       becomes much harder.
+                                                                       It's where we store our tokens, NFTs and currencies.
          
                                                                 </p>    
                                                                 <p class= "use-case-subtitle">
-                                                                        Adamanite is comitted to become the most friendly blockchain out there. For that
-                                                                        reason one of the first tools we are going to build the most user friendly and 
+                                                                        Adamanite is committed to building the most friendly blockchain out there. To that extent, one of the first tools we are going to build the most user friendly and 
                                                                         secure wallet. Among the things we are going to build in is the ability to have
                                                                         social recovery, multisig and a rating system for each wallet giving it a trust
-                                                                        score based on history, succesful transactions, disputes and many other factors.
+                                                                        score based on history, succesfull transactions, disputes and many other factors.
                                                                     </p>   
                                                                     
                                                             </div>                     
@@ -282,15 +274,13 @@
                                                                     Adamnite GUI — A design framework to speed up development.
                                                                     </h2>
                                                                         <p class= "use-case-subtitle"> 
-                                                                           Developing an decentralized application is hard enough in itself. For many developers, 
-                                                                           designing the app to be user friendly and easy on the eyes is a much
-                                                                           harder problem.
+                                                                           Developing decentralized applications goes beyond just writing smart contracts; it also requires developing frontend interfaces to ensure that users can interact with the underlying smart contracts in a seamless manner.
              
                                                                     </p>    
                                                                     <p class= "use-case-subtitle">
-                                                                            Adamnite will create a GUI Framework that allow anyone to get started with great design
+                                                                            To streamline this process, Adamnite Labs will create a GUI Framework that allow anyone to get started with great design
                                                                             that can be customized any way or shape. It will consist of a number the most used visual 
-                                                                            templates and components accessible, available as both graphic files and as HTML/CSS.
+                                                                            templates and components, available as both graphic files and as HTML/CSS.
                                                                         </p>   
                                                                         
                                                                 </div>                     
