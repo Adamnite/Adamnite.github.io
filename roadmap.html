@@ -92,78 +92,41 @@
             <h4 class="hero-title whitepaper-title">
               Roadmap
             </h4>
-            <h2 class = "use-case-title tableOfContents">Core Engineering Plan</h2>
+            <h2 class = "use-case-title tableOfContents">Engineering and Product</h2>
 
             <div class="whitepaper-container">
              
    
                     <div id="Team">
                         <h1 class="use-case-title">
-                          Technical
+                          Technical Progress
                         </h1>
                            <p class= "use-case-subtitle"> 
-                              Our technical roadmap is centered around our core technolgiies, including the core Adamnite blockchain, a virutal machine for enabling smart contracts, and an easy to use high-level programming language. This core software is key to accomplishing our vision of creating a "friendly" layer-1 blockchain development platform.
+                              Our technical/research roadmap is centered around three main "deep" techincal projects: the core distributed ledger, a virtual machine for enabling smart contract execution, and a high-level smart contract language programming language. 
                             </p>
                            
                             <div id="Summary">
                                 <div id="Overview">
                                     <h2 class = "use-case-title">
-                                    A1 — Smart contracts for everyone
+                                    A1 — Smart contracts for everyone (Private Beta launched in early October, full functionality by end of the year)
                                     </h2>
                                         <p class= "use-case-subtitle"> 
-                                            When Nick Szabo wrote "The Idea of Smart Contracts", he was envisioning something that 
-                                            could be used by anyone regardless of their technical abilites. 
-                                            It shouldn't matter whether you were a lawyer, a realtor, a baker, a plumber, 
-                                            or a developer, you should be able to create native and autonomous multi-party smart contracts that execute on the internet.    
+                                            A1 is a high-level programming language intended for allowing developers to easily create multiparty smart contracts on the Adamnite Blockchain. A1 is modular and pythonic, thus allowing new developers to take advantage of standard modules and a familar programming environment, while allowing more experienced developers to go deep and program at the base layer. 
+                                            After launching a private beta in October, our plan is to continue iterating based on the feedback we recieved and launch A1 with blockchain functionality by the end of the year.
                                     </p>    
-                                    <p class= "use-case-subtitle">
-                                            Mordern smart contract frameworks are cumbersome, convoluted and often extremely 
-                                            insecure, making it impossible for most people to use them. 
-                                            It's expensive to get anything built and often, it will be requires people with 
-                                            questionable experience.
-                                        </p>   
-                                        <p class= "use-case-subtitle">
-                                            A1 is the native high-level programming language for the Adamnite Ecosystem. It's an easy to use smart contract programming language. Being human-readable, modular, and similar to other web programming languages, it is so simple that you don't need to be a developer to
-                                            create programs with it, but powerful enough to enable experienced developers to build complex internet applications.
-                                        </p> 
-
-                                        <p class="use-case-subtitle">
-                                            A1 also offer formal verification which further increases security by providing 
-                                            vetted modules for developers and ensure code consistency.    
-                                        </p>
                                 </div>                     
                                 </div>
 
                             <div id="Summary">
                                 <div id="Overview">
                                     <h2 class = "use-case-title">
-                                    ADVM: Enabling the execution of internet-native multi-party smart contracts
+                                    ADVM: Enabling the execution of internet-native multi-party smart contracts (Implementation done, release by the end of the year)
                                     </h2>
-                                        <p class= "use-case-subtitle"> 
-                                            Execution-models in blockchain networks are used to enable the execution of programs on the actual blockchain.
-                                            However, the most popular blockchain execution models (such as the EVM) are inefficient and insecure due to a lack of standardization and modernity.  </p> 
-
                                             <p class= "use-case-subtitle"> 
-                                            This issue seriously hinders blockchain adoption because it 
-                                            results in increased fees and security exploits.</p> 
-                                            
-                                            <p class= "use-case-subtitle"> 
-                                            (ADVM) our virtual machine and bytecode interpeter is
-                                            based on the popular WebAssembly (WASM) paradigm.
-                                            Specifically, we leverage WASM’s modularity and standardization 
-                                            to allow developers to easily create scalable smart
-                                            contracts, and for users to be able to efficiently interact with
-                                            the underlying smart contracts. </p> 
-                                            
-                                            <p class= "use-case-subtitle"> 
-                                            Admanite uses a slightly different model than other blockchain-based 
-                                            virtual machines: due to WASM’s predictability, we can actually create
-                                            a system in which fees are deterministic and stable. The
-                                            majority of WASM engine operations are consistent, and
-                                            with hashing functions and other common cryptographic
-                                            operations essentially being functional libraries, operations
-                                            have consistent fees (almost all operations cost a minimal amount of 0.0001 nite).
-                                            </p>
+                                            Adamnite is leveraging a new execution model based on the popular WASM paradigm for its native virtual machine. We combine the generality of WASM with standard blockchain operations, enabling developers to create applications in an internet-native environment while retaining the security features of the underlying blockchain.
+                                            We are also proceeding with a two-tier architecture for the execution and creation of native smart contracts: by storing contract code and storage off-chain, we greatly increase the efficiency of contract execution, while avoiding bloat on the actual blockchain.
+                                            The full virtual machine, with blockchain-based functionality, will be finished by the end of the year, and will serve as the primary compilation target for the A1 Programming Language.
+                                        </p>
 
 
                                 </div>                     
@@ -172,21 +135,15 @@
                                 <div id="Summary">
                                     <div id="Overview">
                                         <h2 class = "use-case-title">
-                                            DPOS - Delegated Proof of Stake with randomized validation
-                                        </h2>
-                                            <p class= "use-case-subtitle"> 
-                                            Adamnite uses a unique form of Proof of Stake called Delegated Proof 
-                                            of Stake which first categorizes validators by reputation score, 
-                                            then randomly selects between them to provide the final validator pool.
-                                            </p>
-                                            <p class= "use-case-subtitle">     
-                                            This reduces the risk of cohersion by making it hard to guess who is 
-                                            selected for the validation while still allowing for fast 
-                                            transaction throughput.
-                                            </p>
-                                            <p class= "use-case-subtitle">     
+                                           Core Blockchain: A secure and efficent base layer (Proof of Concept over the Summer, Beta by the end of October, releasew by the end of the year)
                                            
-                                            </p> 
+                                           )
+                                        </h2>
+                                           <p> The Adamnite Blockchain is the base execution layer for transactions, programs, and other activity on the Adamnite network. The core blockchain utilizes a form of Delegated Proof of Stake Consensus that allows it to be more efficient than existing solutions while retaining a security and consistency. The core blockchain also utilizes a peer to peer network based on a BAR resilliency model, and utilizes an off-chain database to store information about smart contracts.  
+                                                After defining initial specs and launching a simulated demo over the summer, we are planning on releasing a beta by the end of October to get specific feedback and to stress-test the transactional part of the blockchain.
+                                           </p> 
+                                           
+                                            
                                     </div>                     
                                     </div>     
                                     
@@ -199,8 +156,8 @@
                                                     The first version of Adamnite's network, its testnet, will enable anyone to participate in the consensus process, send transactions, write smart contracts in A1, and run them on the actual blockchain. This will be an opportunity for developers and users to start building/testing applications before the launch of mainnet.                      
                                                 </p> 
                                                 <p class= "use-case-subtitle"> 
-                                                    Adamnite Testnet will give you all the same freedoms that you have on the Mainnet
-                                                    without any of the cost. We expect testnet, which will include all the of the features described so far, to be done in November.                   
+                                                    Adamnite Testnet will give you all the same freedoms that you have on the Mainnet,
+                                                    without any of the cost. We expect testnet, which will include all the of the features described so far, to be done in by the end of the year. TestNet will also correspond to the official launch of A1, the Adamnite Blockchain, and the execution layer.                
                                                 </p> 
                                         </div>                     
                                         </div>  
