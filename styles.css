@@ -660,7 +660,7 @@ footer div {
     .whitepaper-button {
         width: 300px;
         height: 50px;
-        font-size: 16px;
+        font-size: 16px;    
         margin-right: 0;
     }
 
@@ -686,7 +686,6 @@ footer div {
         margin-right: 0;
     }
 
- 
     .content-nav {
         display: grid;
         grid-template:   
@@ -731,7 +730,7 @@ footer div {
 
     .nav-link-container {
         max-width: 50%;
+        margin: 0 auto;
     }
     
-
 }
