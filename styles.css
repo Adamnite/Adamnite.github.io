@@ -730,6 +730,6 @@ footer div {
 
     .nav-link-container {
         max-width: 50%;
-        margin-left: 20px;
+        padding: 0vw 2vw 0vw 1vw;
     }  
 }
