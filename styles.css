@@ -85,6 +85,7 @@ section h1 {
 }
 
 .nav-link-container {
+    margin: 0 auto;
     display: flex;
     width: 240px;
     justify-content: space-around;
@@ -728,6 +729,7 @@ footer div {
     }
 
     .nav-link-container {
-        margin-right: 20px;
+        max-width: 50%;
+        margin-left: 20px;
     }  
 }
