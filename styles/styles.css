@@ -508,10 +508,6 @@ input::placeholder {
     text-align: center;
 }
 
-.footer {
-    height: 80px;
-}
-
 footer div {
     padding-top: 40px;
     display: flex;
@@ -590,12 +586,6 @@ footer div {
         padding-left: 32px;
         padding-right: 32px;
     }
-
-    #Team, .use-case-title {
-        margin: 0 32px;
-    }
-
-
     .nav-header {
         flex-direction: column;
     }
@@ -669,7 +659,7 @@ footer div {
     }
 
     .use-case-title {
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-left: 0;
         margin-right: 0;
     }
@@ -684,7 +674,7 @@ footer div {
     }
 
     .whitepaper-title {
-        font-size: 20px;
+        font-size: 26px;
     }
 
     .hero-title {
@@ -700,14 +690,8 @@ footer div {
         text-align: center!important;
     }
 
-    li {
-        padding: 0 40px 24px 4px;
-    }
-
     .hero-background section  {
-        /* width: 100%; */
         margin:0 auto;
-        /* height: calc(100vh - 214px); */
         text-align: left;
     }
 
