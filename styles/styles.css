@@ -13,7 +13,7 @@ body {
 }
 
 .hero-background {
-    background: url('bg.jpg');
+    background: url('../assets/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height:100vh;
@@ -69,7 +69,7 @@ section h1 {
 
 .nav-header {
     padding: 20px 40px 0 40px;
-    display: flex; 
+    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
@@ -77,7 +77,6 @@ section h1 {
 
 .adamnite-logo-container {
     display: flex;
-  
 }
 
 .whitepaper-title h3 {
@@ -129,7 +128,6 @@ section h1 {
 }
 
 a {
-   
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -155,7 +153,7 @@ a svg {
     color:var(--primary-light);
 }
 
-h2 { 
+h2 {
     padding-top: 16px;
     text-align: center;
     font-style: normal;
@@ -173,11 +171,10 @@ h3 {
 }
 
 li {
-    
     font-style: normal;
     font-size: 1rem !important;
     margin-left: 0em;
-    line-height: 160%; 
+    line-height: 160%;
     padding-bottom: 16px;
 }
 
@@ -185,12 +182,12 @@ p {
     font-style: normal;
     font-size: 1rem !important;
     padding-top: 16px;
-    line-height: 160%; 
+    line-height: 160%;
 }
 
 body {
     max-width: 100%;
- 
+
     /* background-image: url('graphic.svg'); */
 
     /* background-position-x: calc(100vw - 400px); */
@@ -203,7 +200,7 @@ body {
     width: 220px;
     left: 16px;
     bottom: 0px;
-    
+
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -219,7 +216,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     height: calc(100vh - 240px);
-    color:var(--primary-light);    
+    color:var(--primary-light);
 }
 
 .hero-container .hero-title-container {
@@ -229,7 +226,6 @@ body {
 .hero-title-container {
     width: 100%;
    margin:0 auto;
-    
 }
 
 
@@ -238,7 +234,7 @@ body {
     /* background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%); */
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent; */
-    
+
     letter-spacing: -0.3%;
     font-style: normal;
     font-weight: 700;
@@ -281,7 +277,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 40px;
-    margin-right: 1em; 
+    margin-right: 1em;
     color: var(--primary-light);
     -webkit-transition: background-color 290ms linear!important;
     -ms-transition: background-color 290ms linear!important;
@@ -411,7 +407,7 @@ h1 .use-case-title {
 }
 
 .team04 {
-    background-image: url('4th.png');
+    background-image: url('../assets/CoreTeam/Tsimafei.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -420,7 +416,7 @@ h1 .use-case-title {
 }
 
 .team05 {
-    background-image: url('piecepaper.png');
+    background-image: url('../assets/Piecepaper.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -429,7 +425,7 @@ h1 .use-case-title {
 }
 
 .team06 {
-    background-image: url('bashar.png');
+    background-image: url('../assets/Shashar.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -438,7 +434,7 @@ h1 .use-case-title {
 }
 
 .jonah {
-    background-image: url('Jonah.png');
+    background-image: url('../assets/CoreTeam/Jonah.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -448,7 +444,7 @@ h1 .use-case-title {
 }
 
 .ajai {
-    background-image: url('Ajai.png');
+    background-image: url('../assets/Ajai.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -457,7 +453,7 @@ h1 .use-case-title {
 }
 
 .marin {
-    background-image: url('Marin.png');
+    background-image: url('../assets/CoreTeam/Marin.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -468,7 +464,7 @@ h1 .use-case-title {
 
 
 .vc01 {
-    background-image: url('1517.png');
+    background-image: url('../assets/Investors/1517.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -477,7 +473,7 @@ h1 .use-case-title {
 }
 
 .vc02 {
-    background-image: url('z-fellows.png');
+    background-image: url('../assets/Investors/z-fellows.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -486,7 +482,7 @@ h1 .use-case-title {
 }
 
 .vc03 {
-    background-image: url('konza.png');
+    background-image: url('../assets/Investors/konza.png');
     background-size: contain;
     height: 160px;
     width: 100%;
@@ -495,14 +491,12 @@ h1 .use-case-title {
 }
 
 .core-team-item h3{
-   
     padding-top:16px;
 }
 
 .core-team-item p {
     padding-top:0px;
     padding-bottom: 24px;
-    
 }
 
 input::placeholder {
@@ -546,12 +540,12 @@ footer div {
     max-width: 720px;
     margin: 0 auto;
     padding-top: 20px;
+    text-align: justify;
 }
 
 /* Media queries */
 
 @media screen and (min-width: 1601px) {
-        
     .hero-container {
         padding-bottom: 30px;
         max-width: 960px;
@@ -577,15 +571,11 @@ footer div {
     }
 
     .content-nav {
-      
     }
 
     .whitepaper-title {
         font-size: 65px;
-       
     }
-
-    
 
 
 }
@@ -593,7 +583,6 @@ footer div {
 @media screen and (max-width: 1040px) {
 
     .hero-title {
-      
         margin-top:0px;
     }
 
@@ -614,7 +603,6 @@ footer div {
     .nav-header a div h3 {
         display: none;
     }
-   
     .hero-subtitle br {
         display: none;
     }
@@ -660,7 +648,7 @@ footer div {
     .whitepaper-button {
         width: 300px;
         height: 50px;
-        font-size: 16px;    
+        font-size: 16px;
         margin-right: 0;
     }
 
@@ -688,24 +676,20 @@ footer div {
 
     .content-nav {
         display: grid;
-        grid-template:   
+        grid-template:
         "a";
         justify-content:center;
-       
         margin:40px auto 0 auto;
         text-align: center;
     }
 
     .whitepaper-title {
-     
         font-size: 20px;
-       
     }
 
     .hero-title {
         padding-top: 64px;
       }
-    
 
     .core-team-item {
         padding-top:24px;
@@ -722,7 +706,6 @@ footer div {
 
     .hero-background section  {
         /* width: 100%; */
-      
         margin:0 auto;
         /* height: calc(100vh - 214px); */
         text-align: left;
@@ -731,5 +714,5 @@ footer div {
     .nav-link-container {
         max-width: 50%;
         padding: 0vw 2vw 0vw 1vw;
-    }  
+    }
 }
