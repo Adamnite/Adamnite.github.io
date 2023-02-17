@@ -86,8 +86,8 @@ section h1 {
 .nav-link-container {
     margin: 0 auto;
     display: flex;
-    width: 240px;
-    justify-content: space-around;
+    width: 33%;
+    justify-content:center;
 }
 
 .header-line {
@@ -628,7 +628,10 @@ footer div {
         margin-left: 0px;
         margin-right: 0px;
     }
-
+    .nav-link-container {
+        width: 100%;
+        padding: 0vw;
+    }    
 }
 
 
@@ -696,7 +699,10 @@ footer div {
     }
 
     .nav-link-container {
-        max-width: 50%;
-        padding: 0vw 2vw 0vw 1vw;
+        width: 100%;
+        padding: 0vw 2vw 0vw 2vw;
+    }
+    .nav-links {
+        padding-right: 12px;
     }
 }
