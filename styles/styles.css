@@ -228,6 +228,14 @@ body {
    margin:0 auto;
 }
 
+.imgdesktop {
+    background-image: url(../assets/AdamniteClient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   width: 100%;
+   height: 400px;
+}
+
 
 .hero-title {
     font-size: 80px;
@@ -263,8 +271,7 @@ body {
     margin-top: 0px;
 }
 
-
-.whitepaper-button {
+.whitepaper-button, .align-center a {
     margin-top: 16px;
     width: 219px;
     height: 48px;
@@ -277,7 +284,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 40px;
-    margin-right: 1em;
+    margin-right: 1em; 
     color: var(--primary-light);
     -webkit-transition: background-color 290ms linear!important;
     -ms-transition: background-color 290ms linear!important;
@@ -285,7 +292,17 @@ body {
 
 }
 
-.whitepaper-button:hover {
+.align-center {
+    width: 100%;
+    margin: 40px auto 24px auto;
+    text-align: center;
+}
+
+.align-center a {
+   padding: 12px 32px;
+}
+
+.whitepaper-button:hover, .align-center a:hover {
     cursor: pointer;
     background-color: white;
     color: var(--primary)!important;
