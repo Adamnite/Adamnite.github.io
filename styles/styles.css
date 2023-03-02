@@ -43,6 +43,20 @@ banner a {
     font-size: 0.8rem;
 }
 
+@media screen and (max-width: 768px) {
+    [data-aos] {
+      pointer-events: auto !important;
+    }
+
+    html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+      opacity: 1 !important;
+    }
+
+    html:not(.no-js) [data-aos=fade-down] {
+      transform: none !important;
+    }
+}
+
 .white-background {
     background-color:var(--primary-light)!important;
     color: var(--primary)!important;
@@ -231,9 +245,10 @@ body {
 .imgdesktop {
     background-image: url(../assets/AdamniteClient.png);
     background-repeat: no-repeat;
-    background-size: cover;
-   width: 100%;
-   height: 400px;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 400px;
 }
 
 
