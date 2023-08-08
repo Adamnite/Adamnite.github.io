@@ -16,7 +16,7 @@ body {
     background: url('../assets/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height:200vh;
 }
 
 html {
@@ -232,6 +232,20 @@ body {
     height: calc(100vh - 240px);
     color:var(--primary-light);
 }
+.hero-section1-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: calc(100vh - 5000px);
+    color:var(--primary-light);
+    font-size: calc(1.22vw + 2rem);
+    width: 100%;
+    margin:0;
+    letter-spacing: -0.3%;
+    text-align: center!important;
+    
+}
 
 .hero-container .hero-title-container {
     text-align: center;
@@ -267,6 +281,8 @@ body {
     margin-top:40px;
 }
 
+
+
 .hero-title-container h1 {
     text-align: center!important;
 }
@@ -281,6 +297,33 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.hero-section-title {
+    .hero-title {
+        font-size: 50px;
+        /* background: -webkit-linear-gradient(86deg, rgba(108,99,255,1) 37%, rgba(71,230,177,1) 67%); */
+        -webkit-background-clip: text;
+        /* -webkit-text-fill-color: transparent; */
+    
+        letter-spacing: -0.3%;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 88px;
+        letter-spacing: -0.03em;
+        margin-bottom: 0;
+        margin-top:0px;
+    }
+}
+
+.hero-section-sub {
+    color: #9FA1B9;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
     line-height: 40px;
     text-align: center;
     margin-top: 0px;
@@ -575,7 +618,7 @@ footer div {
 
 @media screen and (min-width: 1601px) {
     .hero-container {
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         max-width: 960px;
     }
 }
@@ -584,14 +627,14 @@ footer div {
 
 @media screen and (max-width: 1600px) {
     .hero-container {
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         max-width: 960px;
     }
 
     .hero-subtitle {
         max-width: 960px;
         margin: 0 auto;
-        margin-bottom: 16px;
+        margin-bottom: 8px;
     }
 
     .use-case-box {
@@ -738,3 +781,68 @@ footer div {
         padding-right: 12px;
     }
 }
+
+.section-title h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    color: #000;
+    letter-spacing: 0.3px;
+    padding: 0;
+}
+.section-title::after {
+    content: "";
+    height: 3px;
+    background: #fbb900;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/****************/
+/*	 BX-SLIDER 	*/
+/****************/
+section.client {
+	padding:4em 0em;
+	background-color: #eee;
+
+}
+section.client .section-title {
+	margin-bottom: 6em;
+}
+.bx-controls {
+	position: relative;
+}
+.bx-wrapper .bx-pager {
+    text-align: center;
+    padding-top: 30px;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
