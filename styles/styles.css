@@ -13,10 +13,10 @@ body {
 }
 
 .hero-background {
-    background: url('../assets/background.jpg');
+    background: url('../assets/background.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height: 100%;
 }
 
 html {
@@ -28,11 +28,13 @@ html {
 banner {
     height: 16px ;
     display: block;
-    background: #1f2030;
+    background: rgb(31,32,48, 0.2);
     color: white;
     padding: 8px 16px 16px 16px;
     text-align: center;
     font-size: 0.8rem;
+    position: relative;
+    width: 100%;
 }
 
 banner a {
@@ -96,6 +98,10 @@ section h1 {
 
 .header-socials-container {
     width:220px;
+}
+
+#shadow-host-companion {
+    display: none !important;
 }
 
 .social-svg {
@@ -193,14 +199,13 @@ body {
     /* background-position-x: calc(100vw - 400px); */
 }
 
-
 .adamnite-logo {
     /* ADAMNITE */
     position: relative;
     width: 220px;
     left: 16px;
     bottom: 0px;
-
+    color: white;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -225,11 +230,38 @@ body {
 
 .hero-title-container {
     width: 100%;
-   margin:0 auto;
+    margin:0 auto;
+}
+
+.hero-grid-title {
+    font-size: 5rem;
+    color: white;
+    letter-spacing: -0.3%;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    margin-bottom: 0;
+    margin-top:40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    padding-bottom: 3rem;
+}
+
+.gridChild {
+    display: block;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.startupSVG {
+    fill: white;
 }
 
 .imgdesktop {
-    background-image: url(../assets/AdamniteClient.png);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
    width: 100%;
@@ -256,19 +288,28 @@ body {
     text-align: center!important;
 }
 
+.worldWeb3 {
+    font-size: 3rem;
+}
+
+.web3 {
+    font-style: italic;
+    color: white;
+}
 
 .whitepaper-title {
     text-align: center !important;
 }
 
 .hero-subtitle {
-    color: #9FA1B9;
+    color: #fff;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.3rem;
     line-height: 40px;
     text-align: center;
     margin-top: 0px;
+    padding: 1rem 5rem 1rem 5rem;
 }
 
 .whitepaper-button, .align-center a {
@@ -276,7 +317,7 @@ body {
     width: 219px;
     height: 48px;
     margin-left: 0;
-    border: 1px solid #C4C4C4;
+    border: 1px solid #fff;
     box-sizing: border-box;
     border-radius: 24px;
     background-color:transparent;
@@ -526,7 +567,7 @@ input::placeholder {
 }
 
 footer div {
-    padding-top: 40px;
+    padding-top: 5rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: 32px;
@@ -560,7 +601,6 @@ footer div {
 
 @media screen and (min-width: 1601px) {
     .hero-container {
-        padding-bottom: 30px;
         max-width: 960px;
     }
 }
