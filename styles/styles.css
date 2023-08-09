@@ -314,6 +314,10 @@ body {
     text-align: center !important;
 }
 
+.pageLogo {
+    color: blue;
+}
+
 .hero-subtitle {
     color: #fff;
     font-style: normal;
