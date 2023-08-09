@@ -9,7 +9,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: var(--gray);
     viewport-fit: 100%;
-    background-color: var(--primary);
+    background-color: #031623;
 }
 
 .hero-background {
@@ -20,7 +20,7 @@ body {
 }
 
 html {
-    background-color: var(--primary);
+    background-color: #031623;
     color:var(--primary);
     max-width: 100%;
 }
@@ -28,7 +28,7 @@ html {
 banner {
     height: 16px ;
     display: block;
-    background: rgb(31,32,48, 0.2);
+    background: rgb(3,22,35, 0.2);
     color: white;
     padding: 8px 16px 16px 16px;
     text-align: center;
@@ -248,12 +248,13 @@ body {
     grid-template-columns: 1fr 1fr;
     column-gap: 5rem;
     padding-bottom: 3rem;
+    row-gap: 10srem;
 }
 
 .gridChild {
     display: block;
     text-align: center;
-    padding-bottom: 3rem;
+    padding: 5rem;
 }
 
 .startupSVG {
@@ -281,7 +282,11 @@ body {
     line-height: 88px;
     letter-spacing: -0.03em;
     margin-bottom: 0;
-    margin-top:40px;
+    margin-top: ;
+}
+
+.why {
+    margin-top: -10rem;
 }
 
 .hero-title-container h1 {
