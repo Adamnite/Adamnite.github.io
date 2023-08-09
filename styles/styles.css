@@ -10,6 +10,7 @@ body {
     color: var(--gray);
     viewport-fit: 100%;
     background-color: #031623;
+    width: 100%;
 }
 
 .hero-background {
@@ -54,7 +55,6 @@ banner a {
     /* width: 100%; */
     max-width: 1550px;
     margin:0 auto;
-    height: calc(100vh - 184px);
     text-align: left;
 }
 
@@ -122,7 +122,7 @@ section h1 {
     transition: fill 290ms linear!important;
   }
 
-  .white-background .social-svg:hover path {
+.white-background .social-svg:hover path {
     fill: #000;
     -webkit-transition: fill 290ms linear!important;
     -ms-transition: fill 290ms linear!important;
@@ -257,6 +257,13 @@ body {
     padding: 5rem;
 }
 
+.gridChild2 {
+    display: block;
+    grid-column: span 2;
+    padding:5rem;
+    text-align: center;
+}
+
 .startupSVG {
     fill: white;
 }
@@ -302,7 +309,8 @@ body {
     color: white;
 }
 
-.whitepaper-title {
+.hero-title.whitepaper-title {
+    padding-top: 5rem;
     text-align: center !important;
 }
 
@@ -385,6 +393,12 @@ whitepaper-button:hover a {
 
 .tableOfContents {
     text-align: center!important;
+}
+
+.socialGrid {
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .use-case-title {
@@ -553,6 +567,10 @@ h1 .use-case-title {
     background-position-x: center;
 }
 
+.videoContainer {
+    padding-top: 1rem;
+}
+
 .core-team-item h3{
     padding-top:16px;
 }
@@ -572,7 +590,7 @@ input::placeholder {
 }
 
 footer div {
-    padding-top: 5rem;
+    padding-top: 10rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: 32px;
