@@ -9,18 +9,19 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: var(--gray);
     viewport-fit: 100%;
-    background-color: var(--primary);
+    background-color: #031623;
+    width: 100%;
 }
 
 .hero-background {
-    background: url('../assets/background.jpg');
+    background: url('../assets/background.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    height:100vh;
+    height: 100%;
 }
 
 html {
-    background-color: var(--primary);
+    background-color: #031623;
     color:var(--primary);
     max-width: 100%;
 }
@@ -28,11 +29,13 @@ html {
 banner {
     height: 16px ;
     display: block;
-    background: #1f2030;
+    background: rgb(3,22,35, 0.2);
     color: white;
     padding: 8px 16px 16px 16px;
     text-align: center;
     font-size: 0.8rem;
+    position: relative;
+    width: 100%;
 }
 
 banner a {
@@ -66,7 +69,6 @@ banner a {
     /* width: 100%; */
     max-width: 1550px;
     margin:0 auto;
-    height: calc(100vh - 184px);
     text-align: left;
 }
 
@@ -112,6 +114,10 @@ section h1 {
     width:220px;
 }
 
+#shadow-host-companion {
+    display: none !important;
+}
+
 .social-svg {
     padding-right: 16px;
 }
@@ -130,7 +136,7 @@ section h1 {
     transition: fill 290ms linear!important;
   }
 
-  .white-background .social-svg:hover path {
+.white-background .social-svg:hover path {
     fill: #000;
     -webkit-transition: fill 290ms linear!important;
     -ms-transition: fill 290ms linear!important;
@@ -207,14 +213,13 @@ body {
     /* background-position-x: calc(100vw - 400px); */
 }
 
-
 .adamnite-logo {
     /* ADAMNITE */
     position: relative;
     width: 220px;
     left: 16px;
     bottom: 0px;
-
+    color: white;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -239,11 +244,46 @@ body {
 
 .hero-title-container {
     width: 100%;
-   margin:0 auto;
+    margin:0 auto;
+}
+
+.hero-grid-title {
+    font-size: 5rem;
+    color: white;
+    letter-spacing: -0.3%;
+    font-style: normal;
+    letter-spacing: -0.03em;
+    margin-bottom: 0;
+    margin-top:40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    padding-bottom: 3rem;
+    row-gap: 10srem;
+}
+
+.gridChild {
+    display: block;
+    text-align: center;
+    padding: 5rem;
+}
+
+.gridChild2 {
+    display: block;
+    grid-column: span 2;
+    padding:5rem;
+    text-align: center;
+}
+
+.startupSVG {
+    fill: white;
 }
 
 .imgdesktop {
-    background-image: url(../assets/AdamniteClient.png);
+    background-color: black;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
@@ -264,26 +304,44 @@ body {
     line-height: 88px;
     letter-spacing: -0.03em;
     margin-bottom: 0;
-    margin-top:40px;
+    margin-top: ;
+}
+
+.why {
+    margin-top: -10rem;
 }
 
 .hero-title-container h1 {
     text-align: center!important;
 }
 
+.worldWeb3 {
+    font-size: 3rem;
+}
 
-.whitepaper-title {
+.web3 {
+    font-style: italic;
+    color: white;
+}
+
+.hero-title.whitepaper-title {
+    padding-top: 5rem;
     text-align: center !important;
 }
 
+.pageLogo {
+    color: blue;
+}
+
 .hero-subtitle {
-    color: #9FA1B9;
+    color: #fff;
     font-style: normal;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.3rem;
     line-height: 40px;
     text-align: center;
     margin-top: 0px;
+    padding: 1rem 5rem 1rem 5rem;
 }
 
 .whitepaper-button, .align-center a {
@@ -291,7 +349,7 @@ body {
     width: 219px;
     height: 48px;
     margin-left: 0;
-    border: 1px solid #C4C4C4;
+    border: 1px solid #fff;
     box-sizing: border-box;
     border-radius: 24px;
     background-color:transparent;
@@ -354,6 +412,12 @@ whitepaper-button:hover a {
 
 .tableOfContents {
     text-align: center!important;
+}
+
+.socialGrid {
+    padding-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .use-case-title {
@@ -522,6 +586,10 @@ h1 .use-case-title {
     background-position-x: center;
 }
 
+.videoContainer {
+    padding-top: 1rem;
+}
+
 .core-team-item h3{
     padding-top:16px;
 }
@@ -541,7 +609,7 @@ input::placeholder {
 }
 
 footer div {
-    padding-top: 40px;
+    padding-top: 10rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: 32px;
@@ -575,7 +643,6 @@ footer div {
 
 @media screen and (min-width: 1601px) {
     .hero-container {
-        padding-bottom: 30px;
         max-width: 960px;
     }
 }
