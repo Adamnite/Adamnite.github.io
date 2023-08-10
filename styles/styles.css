@@ -60,8 +60,9 @@ banner a {
     }
 
     .hero-background {
-        background-image: url('/assets/backgroundmobile.svg');
-        background-repeat: repeat;
+        background-image: url('../assets/backgroundmobile.svg');
+        background-repeat: repeat-y;
+        background-size: 340%;
     }
 
     .nav-header {
