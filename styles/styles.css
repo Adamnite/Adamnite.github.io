@@ -58,6 +58,70 @@ banner a {
     html:not(.no-js) [data-aos=fade-down] {
       transform: none !important;
     }
+
+    .hero-background {
+        background-image: url('../assets/backgroundmobile.svg');
+        background-repeat: repeat-y;
+        background-size: 340%;
+    }
+
+    .nav-header {
+        padding: 2rem;
+    }
+
+    .hero-title-container {
+        padding-top: 7rem;
+    }
+
+    .hero-title-container h1 {
+        font-size: 2rem;
+    }
+
+    .worldWeb3 {
+        font-size: 1.5rem !important;
+    }
+
+    .grid {
+        display: block !important;
+    }
+
+    .gridChild {
+        padding: .5rem !important;
+    }
+
+    .socialGrid {
+        display: block !important;
+        padding-top: 3rem !important;
+    }
+    
+    .hero-container {
+        display: block !important;
+        height: 100% !important;
+    }
+
+    .videoContainer {
+        width: fit-content;
+        height: auto;
+    }
+
+    .hero-subtitle {
+        line-height: normal;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 0.8rem !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .hero-grid-title {
+        font-size: 2rem !important;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
 }
 
 .white-background {
@@ -718,7 +782,6 @@ footer div {
     .hero-subtitle {
         font-size: 18px;
         line-height: 160%;
-        width: 90% !important;
         margin: 0 auto;
         text-align: center;
     }
