@@ -21,7 +21,8 @@ let offset = 0;
 const maxX = -(
 	(cardCount / 3) * carouselWidth +
 	cardMarginRight * (cardCount / 3) -
-	carouselWidth
+	carouselWidth -
+	cardMarginRight
 );
 
 // Add the click events
